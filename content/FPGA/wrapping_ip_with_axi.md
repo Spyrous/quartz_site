@@ -269,7 +269,7 @@ For the UART baud rate (or the field Speed in Putty) you can look inside the com
 
 Now copy this C code and replace the int main() program inside the helloworld.c file.
 
-{{<highlight c>}}
+```c
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
@@ -287,7 +287,7 @@ int main()
     cleanup_platform();
     return 0;
 }
-{{</highlight>}}
+```
 
 Build the project and run again with your Putty session open and watch the output of the print.
 

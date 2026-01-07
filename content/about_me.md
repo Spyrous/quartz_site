@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2021-11-08T11:30:03+00:00
+date: 2026-01-03T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 # tags: ["first"]
@@ -18,9 +18,23 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-Hello everyone,
+# Welcome to My Blog
+Hi, I’m Spyros Chiotakis. I am a Microelectronics Engineer currently based in Grenoble France, working at STMicroelectronics. My journey in engineering has taken me from Greece to the UK, and now to the heart of a small silicon valley in Grenoble.
 
-My name is Spyros Chiotakis, and like you, I’m just a regular person trying to find my path through life. I studied Computer Engineering in Greece at the Hellenic Mediterranean University at Heraklion, Crete. Then I received my masters at the University of York in Digital Systems Engineering at the United Kingdom. Currently working in France at GreenWaves Technologies as a microelectronics engineer.
+## My Background
+* M.Sc. in Digital Systems Engineering – University of York, UK
+* B.Sc. in Computer Engineering – Hellenic Mediterranean University (Crete, Greece)
 
-The blog’s purpose is to educate on topics such as, digital design, computer architecture, HDL languages (VHDL/Verilog), and if time allows, I will try to explain a few things about OS and compilers in correlation with computer architecture.
-Last but not least, here’s my email address spyros.chiotakis@gmail.com if you want to ask me anything personally or in case you spot any broken links/typo you are more than welcome to inform me.
+## What I Write About
+This blog is dedicated to demystifying the world of hardware and low-level systems. You can expect deep dives into:
+
+* Digital Design & Computer Architecture
+* HDL Languages (VHDL and Verilog)
+* OS & Compilers (specifically how they interface with hardware)
+
+## Get in Touch
+Whether you have a technical question, spotted a typo, or just want to connect, feel free to reach out!
+
+Email: spyros.chiotakis@gmail.com
+
+Feedback: If you find any broken links or errors please let me know. I value your input!
