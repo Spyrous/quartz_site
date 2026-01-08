@@ -3,7 +3,7 @@ title: "Wrapping an IP with an AXI interface in Vivado"
 date: 2021-11-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["AXI", "Xilinx", "Vivado", "Vitis", "FPGA"]
+tags: ["Vivado", "Vitis", "AXI", "FPGA"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
