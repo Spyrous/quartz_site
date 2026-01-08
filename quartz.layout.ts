@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://www.github.com/Spyrous",
+      LinkedIn: "https://www.linkedin.com/in/spyroschiotakis/",
     },
   }),
 }
@@ -44,6 +44,23 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    // This function checks if the current page is the homepage
+    (props) => {
+      if (props.fileData.slug === "index") {
+        return Component.RecentNotes({
+          title: "Latest Posts",
+          limit: 5,
+          //linkToMore: "FPGA/", // Optional: links to a full archive
+	  filter: (f) => {
+  		const excluded = ["index", "FPGA/index", "about_me"]
+  		return !excluded.includes(f.slug!)
+	  },
+        })(props)
+      }
+      return null
+    },
   ],
 }
 

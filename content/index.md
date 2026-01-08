@@ -1,24 +1,15 @@
 ---
 title: Welcome to My Blog
 ---
+This technical blog is where I document my journey through the layers of the computing stack. I’m fascinated by the "magic" that happens when software meets silicon, and I use this blog to deconstruct complex systems into understandable pieces.
 
-Hi, I’m Spyros Chiotakis. I am a Microelectronics Engineer currently based in Grenoble France, working at STMicroelectronics. My journey in engineering has taken me from Greece to the UK, and now to the heart of a small silicon valley in Grenoble.
+My focus is primarily on the architecture that powers our world:
 
-## My Background
-* M.Sc. in Digital Systems Engineering – University of York, UK
-* B.Sc. in Computer Engineering – Hellenic Mediterranean University (Crete, Greece)
+* [FPGA & Digital Design](FPGA/index.md): Prototyping logic and understanding hardware acceleration.
+* Computer Architecture: Exploring the blueprints of modern processors.
+* HDL (VHDL/Verilog): The languages we use to "program" hardware.
+* The Hardware-Software Interface: Investigating how Operating Systems and Compilers bridge the gap between abstract code and physical gates.
 
-## What I Write About
-This blog is dedicated to demystifying the world of hardware and low-level systems. You can expect deep dives into:
 
-* Digital Design & Computer Architecture
-* HDL Languages (VHDL and Verilog)
-* OS & Compilers (specifically how they interface with hardware)
 
-## Get in Touch
-Whether you have a technical question, spotted a typo, or just want to connect, feel free to reach out!
-
-Email: spyros.chiotakis@gmail.com
-
-Feedback: If you find any broken links or errors please let me know. I value your input!
 
